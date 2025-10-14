@@ -1,0 +1,33 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb Exercise</title>
+    <style>
+        #bulb {
+            border:2px solid black;
+            border-radius:50%;
+            height:100px;
+            width: 100px;
+            /* background-color:red; */
+        }
+    </style>
+    <script>
+        function colorHandler(color) {
+          const bulb =  document.getElementById("bulb");
+          bulb.style.backgroundColor = color;
+              
+        }
+    </script>
+ </head>
+ <body>
+    <div id="bulb"></div>
+    <input type="button" value="RED" onclick="colorHandler(value)">
+    <input type="button" value="BLACK" onclick="colorHandler(value)">
+    <input type="button" value="BLUE" onclick="colorHandler(value)">
+    <input type="button" value="GREEN" onclick="colorHandler(value)">
+    
+ </body>
+ </html>
