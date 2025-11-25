@@ -6,7 +6,8 @@ const generateAge = ()=> {
 
     const userDOBYear = new Date(userDOB.value);
 
-    const userAge = currentDate.getFullYear() - userDOBvalue.getFullYear();
+    const userAge = currentDate.getFullYear() -({userAge} Year';
+
     console.log(userAge);
-    
+
 }
